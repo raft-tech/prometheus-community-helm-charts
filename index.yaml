@@ -66271,6 +66271,31 @@ entries:
   prometheus-elasticsearch-exporter:
   - apiVersion: v2
     appVersion: v1.7.0
+    created: "2024-08-13T15:38:42.289789145Z"
+    description: Elasticsearch stats exporter for Prometheus
+    digest: 1e353fe788f69fb8eff3362f204e53f1043999cdcd1d80405d2263a24bdaa441
+    home: https://github.com/prometheus-community/elasticsearch_exporter
+    keywords:
+    - metrics
+    - elasticsearch
+    - monitoring
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: sven.mueller@commercetools.com
+      name: svenmueller
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-elasticsearch-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-elasticsearch-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-elasticsearch-exporter-6.3.1/prometheus-elasticsearch-exporter-6.3.1.tgz
+    version: 6.3.1
+  - apiVersion: v2
+    appVersion: v1.7.0
     created: "2024-08-11T14:14:39.127914034Z"
     description: Elasticsearch stats exporter for Prometheus
     digest: 0f9fa6ed61e817e0904684198655f0bd39affd7568b0f9cf7ec8830a2face9f7
@@ -94986,4 +95011,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-11T14:14:39.131464689Z"
+generated: "2024-08-13T15:38:42.294890921Z"
