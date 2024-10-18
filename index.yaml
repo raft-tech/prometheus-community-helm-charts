@@ -94861,6 +94861,29 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: v0.26.0
+    created: "2024-10-18T09:54:58.188083934Z"
+    description: Prometheus SNMP Exporter
+    digest: c46b207baeccf37989926cc02dffbcec61b849f65958a545226dabeb2855df05
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: maxime@root314.com
+      name: miouge1
+    - email: github@xiu.io
+      name: xiu
+    - email: walker.thomas.p@gmail.com
+      name: walker-tom
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-snmp-exporter-5.6.0/prometheus-snmp-exporter-5.6.0.tgz
+    version: 5.6.0
+  - apiVersion: v1
+    appVersion: v0.26.0
     created: "2024-09-28T04:59:28.340366585Z"
     description: Prometheus SNMP Exporter
     digest: e4accc8f312fd31d8bdb43127af2fa452fc44a6b6f21cb3fcc935bb52c0c4ad8
@@ -97446,4 +97469,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-17T08:43:21.235025696Z"
+generated: "2024-10-18T09:54:58.191436308Z"
