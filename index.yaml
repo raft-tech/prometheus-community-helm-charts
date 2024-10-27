@@ -89195,6 +89195,30 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: v0.15.0
+    created: "2024-10-27T18:31:59.840836112Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: b044b6f889cd87269f965f4b7765f622f215272c9b547a4f7a6fd6a34b0b700c
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-postgres-exporter-6.4.0/prometheus-postgres-exporter-6.4.0.tgz
+    version: 6.4.0
+  - apiVersion: v2
+    appVersion: v0.15.0
     created: "2024-08-22T05:43:23.715963647Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: 7711ddb32ad435e040a9a1ddbee7d609a75cb132dc434667f90057a4327968dd
@@ -97898,4 +97922,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-26T19:17:10.092908725Z"
+generated: "2024-10-27T18:31:59.845132783Z"
