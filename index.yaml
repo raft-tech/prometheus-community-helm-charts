@@ -71515,6 +71515,25 @@ entries:
     version: 0.1.4
   prometheus-memcached-exporter:
   - apiVersion: v2
+    appVersion: v0.15.0
+    created: "2024-11-11T18:31:40.22006281Z"
+    description: Prometheus exporter for Memcached metrics
+    digest: c5868ca900ce768658035b74ea8b5a230adba7238c85c4f01e4662aef521c286
+    home: https://github.com/prometheus/memcached_exporter
+    keywords:
+    - prometheus
+    - memcached
+    maintainers:
+    - email: roger.sicart@gmail.com
+      name: rsicart
+    name: prometheus-memcached-exporter
+    sources:
+    - https://github.com/prometheus/memcached_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-memcached-exporter-0.4.0/prometheus-memcached-exporter-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: v0.14.4
     created: "2024-07-21T11:20:43.230622491Z"
     description: Prometheus exporter for Memcached metrics
@@ -98863,4 +98882,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-09T22:46:50.071424129Z"
+generated: "2024-11-11T18:31:40.224200249Z"
