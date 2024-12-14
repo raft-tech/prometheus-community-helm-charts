@@ -75042,6 +75042,35 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 1.8.2
+    created: "2024-12-14T22:32:07.655513935Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: c451fdca14e006786d30385d0eb76d1a184fb77f9f79b2229bed8618d7d225c9
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-node-exporter-4.43.0/prometheus-node-exporter-4.43.0.tgz
+    version: 4.43.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.8.2
     created: "2024-11-05T07:46:02.17355356Z"
     description: A Helm chart for prometheus node-exporter
     digest: 0e5201dc3b8b85e50f62bc8adb15fa69d40f5bbbba8cc3f6f45faaa192323465
@@ -100078,4 +100107,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-13T22:50:42.413108476Z"
+generated: "2024-12-14T22:32:07.661354745Z"
