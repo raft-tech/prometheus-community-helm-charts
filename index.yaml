@@ -91978,6 +91978,27 @@ entries:
     version: 2.3.2
   prometheus-pingmesh-exporter:
   - apiVersion: v2
+    appVersion: v1.2.2
+    created: "2024-12-25T01:42:31.769190786Z"
+    description: Prometheus Pingmesh Exporter
+    digest: 1e49fdf72b9b23dae2504397df5a3502090f2e2fdf3824a7d2c81a7481483f2a
+    home: https://stack.kubeservice.cn/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - prometheus
+    - pingmesh
+    - monitoring
+    maintainers:
+    - email: dongjiang1989@126.com
+      name: dongjiang1989
+    name: prometheus-pingmesh-exporter
+    sources:
+    - https://github.com/kubeservice-stack/pingmesh-agent
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pingmesh-exporter-0.4.1/prometheus-pingmesh-exporter-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v2
     appVersion: v1.2.1
     created: "2024-02-18T01:13:51.062191336Z"
     description: Prometheus Pingmesh Exporter
@@ -101118,4 +101139,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-24T22:25:30.384316218Z"
+generated: "2024-12-25T01:42:31.774119245Z"
