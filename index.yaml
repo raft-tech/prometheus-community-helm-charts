@@ -102086,4 +102086,30 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-windows-exporter-0.1.0/prometheus-windows-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-14T08:05:14.777890968Z"
+  yet-another-cloudwatch-exporter:
+  - apiVersion: v2
+    appVersion: v0.62.1
+    created: "2025-01-14T10:34:36.740786315Z"
+    description: Yace - Yet Another CloudWatch Exporter
+    digest: 7ce7736b705e52749899b03b894239e2db114bcfa571755c8eaf842d74c4310e
+    home: https://github.com/prometheus-community/helm-charts
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    - yet-another-cloudwatch-exporter
+    - yace
+    maintainers:
+    - email: cristian.greco@grafana.com
+      name: cristiangreco
+    - email: info@thomas-peitz.de
+      name: thomaspeitz
+    name: yet-another-cloudwatch-exporter
+    sources:
+    - https://github.com/prometheus-community/yet-another-cloudwatch-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/yet-another-cloudwatch-exporter-0.39.0/yet-another-cloudwatch-exporter-0.39.0.tgz
+    version: 0.39.0
+generated: "2025-01-14T10:34:36.744976246Z"
