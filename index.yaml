@@ -91993,6 +91993,37 @@ entries:
           url: https://github.com/prometheus-operator/prometheus-operator
     apiVersion: v2
     appVersion: 0.79.2
+    created: "2025-02-06T13:44:05.878402391Z"
+    description: Prometheus Operator Admission Webhook
+    digest: 7253203537e31bce2fd191ca15d0b02047a5ef5be7450b1caa191e1481169822
+    home: https://github.com/prometheus-operator/prometheus-operator
+    icon: https://github.com/prometheus-operator/prometheus-operator/raw/main/Documentation/logos/prometheus-operator-logo.png
+    keywords:
+    - admission
+    - monitoring
+    - prometheus-operator
+    - webhook
+    maintainers:
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-operator-admission-webhook
+    sources:
+    - https://github.com/prometheus-operator/prometheus-operator
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-admission-webhook
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-operator-admission-webhook-0.18.2/prometheus-operator-admission-webhook-0.18.2.tgz
+    version: 0.18.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/prometheus-operator
+    apiVersion: v2
+    appVersion: 0.79.2
     created: "2024-12-24T16:17:14.938714133Z"
     description: Prometheus Operator Admission Webhook
     digest: 1a3f10e238780280fb043b9c427d0c487163bb229e05fef109c2d3aa6c0a6a78
@@ -103737,4 +103768,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/yet-another-cloudwatch-exporter-0.39.0/yet-another-cloudwatch-exporter-0.39.0.tgz
     version: 0.39.0
-generated: "2025-02-04T08:23:23.696219173Z"
+generated: "2025-02-06T13:44:05.882118793Z"
