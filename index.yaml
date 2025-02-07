@@ -74185,6 +74185,31 @@ entries:
   prometheus-json-exporter:
   - apiVersion: v2
     appVersion: v0.6.0
+    created: "2025-02-07T02:38:41.525851871Z"
+    description: Install prometheus-json-exporter
+    digest: 2b862bd4cb83b7352749a577d2bc62001dd74027c5debb71dd4c75edd2ef868c
+    home: https://github.com/prometheus-community/json_exporter
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    maintainers:
+    - email: schmiddim@gmx.at
+      name: schmiddim
+      url: https://github.com/schmiddim
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: github@xiu.io
+      name: xiu
+      url: https://github.com/xiu
+    name: prometheus-json-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-json-exporter-0.15.0/prometheus-json-exporter-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    appVersion: v0.6.0
     created: "2025-02-02T07:29:44.754936498Z"
     description: Install prometheus-json-exporter
     digest: cdb69c919d0ce83f7cc4814d017c97e3482185217adf26c89759cc668bf2976f
@@ -104122,4 +104147,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/yet-another-cloudwatch-exporter-0.39.0/yet-another-cloudwatch-exporter-0.39.0.tgz
     version: 0.39.0
-generated: "2025-02-06T22:10:53.170064271Z"
+generated: "2025-02-07T02:38:41.529732459Z"
