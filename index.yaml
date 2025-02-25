@@ -94448,6 +94448,52 @@ entries:
         - name: QuentinBisson
           email: quentin.bisson@gmail.com
     apiVersion: v2
+    appVersion: v0.80.1
+    created: "2025-02-25T08:36:35.796226146Z"
+    dependencies:
+    - name: crds
+      repository: ""
+      version: 0.0.0
+    description: 'A Helm chart that collects custom resource definitions (CRDs) from
+      the Prometheus Operator, allowing for seamless integration with GitOps tools '
+    digest: e9c33aeb87f4a053c980e2723c43f49bf42e41103c9e5e05d97270fcc9dd68b3
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - prometheus
+    - crds
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: dacamposol@gmail.com
+      name: dacamposol
+      url: https://github.com/dacamposol
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    - email: github@jkroepke.de
+      name: Jan-Otto Kröpke
+      url: https://github.com/jkroepke
+    name: prometheus-operator-crds
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-operator-crds-18.0.1/prometheus-operator-crds-18.0.1.tgz
+    version: 18.0.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      artifacthub.io/maintainers: |
+        - name: dacamposol
+          email: dacamposol@gmail.com
+        - name: desaintmartin
+          email: cedric@desaintmartin.fr
+        - name: QuentinBisson
+          email: quentin.bisson@gmail.com
+    apiVersion: v2
     appVersion: v0.80.0
     created: "2025-02-06T16:13:46.045635473Z"
     dependencies:
@@ -105654,4 +105700,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/yet-another-cloudwatch-exporter-0.39.0/yet-another-cloudwatch-exporter-0.39.0.tgz
     version: 0.39.0
-generated: "2025-02-25T08:30:09.241529662Z"
+generated: "2025-02-25T08:36:35.799370957Z"
