@@ -68938,6 +68938,38 @@ entries:
     version: v0.0.1
   prometheus-blackbox-exporter:
   - apiVersion: v2
+    appVersion: v0.26.0
+    created: "2025-02-28T13:37:37.203795417Z"
+    description: Prometheus Blackbox Exporter
+    digest: 0a2efa195032efdfd4cd89c3b140eded789b764b9a6f5ad39f6e682cf3c97156
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+      url: https://github.com/rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-blackbox-exporter-9.3.0/prometheus-blackbox-exporter-9.3.0.tgz
+    version: 9.3.0
+  - apiVersion: v2
     appVersion: v0.25.0
     created: "2025-01-31T21:20:12.545472904Z"
     description: Prometheus Blackbox Exporter
@@ -78321,6 +78353,25 @@ entries:
     - https://prometheus-community.github.io/helm-charts/prometheus-mongodb-exporter-1.0.0.tgz
     version: 1.0.0
   prometheus-mysql-exporter:
+  - apiVersion: v1
+    appVersion: v0.17.2
+    created: "2025-02-28T13:37:37.314283103Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: cd701a7e5190e71e3c2b907d57c0d0fa2c01d4c22d16879eb2aaaeb73de27cef
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+      url: https://github.com/juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-mysql-exporter-2.9.1/prometheus-mysql-exporter-2.9.1.tgz
+    version: 2.9.1
   - apiVersion: v1
     appVersion: v0.17.1
     created: "2025-02-26T14:23:39.933366506Z"
@@ -106355,4 +106406,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/yet-another-cloudwatch-exporter-0.39.0/yet-another-cloudwatch-exporter-0.39.0.tgz
     version: 0.39.0
-generated: "2025-02-28T08:37:45.411090525Z"
+generated: "2025-02-28T13:37:37.31825678Z"
