@@ -98306,6 +98306,35 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: v0.10.2
+    created: "2025-03-22T21:52:43.28430955Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: ~16.5.0
+    description: A Helm chart for prometheus pgbouncer-exporter
+    digest: 6702bb5e74e83157240a2946ed1f4d9ae0708d50b2f237406342202a06c9ebd7
+    home: https://github.com/prometheus-community/pgbouncer_exporter
+    keywords:
+    - pgbouncer
+    - prometheus
+    - exporter
+    maintainers:
+    - email: stewart.shea@gmail.com
+      name: stewartshea
+      url: https://github.com/stewartshea
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pgbouncer-exporter
+    sources:
+    - https://github.com/prometheus-community/pgbouncer_exporter
+    type: application
+    urls:
+    - https://github.com/prometheus-community/helm-charts/releases/download/prometheus-pgbouncer-exporter-0.6.0/prometheus-pgbouncer-exporter-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: v0.10.2
     created: "2024-10-26T19:05:19.53315868Z"
     dependencies:
     - condition: postgresql.enabled
@@ -108777,4 +108806,4 @@ entries:
     urls:
     - https://github.com/prometheus-community/helm-charts/releases/download/yet-another-cloudwatch-exporter-0.39.0/yet-another-cloudwatch-exporter-0.39.0.tgz
     version: 0.39.0
-generated: "2025-03-22T15:07:57.535490694Z"
+generated: "2025-03-22T21:52:43.289217315Z"
